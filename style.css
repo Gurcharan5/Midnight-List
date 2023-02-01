@@ -1,7 +1,9 @@
 .topnav{
     background-color: white;
     overflow: hidden;
-    border-bottom: solid 3px black;
+    /* border-bottom: solid 3px black; */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .topnav a{
@@ -9,7 +11,7 @@
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -18,6 +20,7 @@
 
 .topnav #home{
     float: left;
+    font-size: 20px;
 }
 
 .topnav #loginsignup{
@@ -32,11 +35,25 @@
 body #title{
     font-size: 5em;
     text-align: center;
-    font-weight: 700;
+    font-weight: 1000em;
     line-height: 1.1;
     margin-bottom: 45px;
     letter-spacing: -2px;
     padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#getStartedButton{
+    border-radius: 30px;
+    border-color: tomato;
+    border-style: solid;
+    background-color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
 }
 
 #slogan{
@@ -59,4 +76,30 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-bottom: 30px;
+}
+
+#buttonInfo{
+    text-align: center;
+    color:gray;
+    padding-bottom: 30px;
+    margin-bottom: 45px;
+}
+
+#underline{
+    text-decoration: underline tomato;
+}
+
+.aesthetic{
+    background-color: lightgray;
+    border-radius: 8px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aesthetic h3{
+    text-align: center;
+    font-size: 30px;
 }
